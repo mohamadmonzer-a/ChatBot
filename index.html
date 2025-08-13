@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat Widget</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Chat Widget Demo</h1>
+
+  <script>
+    window.ChatWidgetConfig = {
+      webhook: {
+        url: 'https://casual-assured-caiman.ngrok-free.app/webhook/d9b901d8-8391-40de-be7e-4836a037055d/chat',
+        route: 'general'
+      },
+      branding: {
+        logo: 'https://cryptototem.com/wp-content/uploads/2024/11/Agent-AI-logo.jpg',
+        name: 'ChatAi',
+        welcomeText: '',
+        responseTimeText: ''
+      },
+      style: {
+        primaryColor: '',
+        secondaryColor: '',
+        position: 'right',
+        backgroundColor: '',
+        fontColor: ''
+      },
+      suggestedQuestions: [
+        "What products do you offer?",
+        "How can I contact support?",
+        "Where can I buy this item?",
+        "Tell me more about your services"
+      ]
+    };
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/gh/funtastic418/chat-widget@main/chat-widget.js"></script>
+</body>
+</html>
