@@ -1,5 +1,3 @@
----
-
 ```markdown
 # Angular Chat Widget
 
